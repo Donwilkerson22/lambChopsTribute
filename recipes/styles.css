@@ -9,11 +9,18 @@ body{
            color:bisque;
            padding:20px;
            border-image:round;
-       }
-        
 
-                }
-        #bottomSectionH1{
+           }
+           
+    
+    button{
+        font-size: larger;
+        font-family:Arial, Helvetica, sans-serif ;
+        align-items:center;
+        border-style: outset;
+    }
+
+        #bottomSectionH2{
             padding-left: 50px;
         }
    

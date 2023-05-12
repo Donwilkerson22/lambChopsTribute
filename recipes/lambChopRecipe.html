@@ -10,18 +10,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css"
-    </title>
-    <title>Lamby Lambs</title>
+     
   </head>
-
+        <title>Lamby Lambs Recipe</title>
   <body>
     <div class="section" width="100%" id="topSection">
       <div class="row">
         <div class="col-md-6"> 
-          <img src="https://images.eatsmarter.com/sites/default/files/styles/1600x1200/public/grilled-lamb-chops-588290.jpg" width="70%">
+          <img id="chopPicMain" src="https://images.eatsmarter.com/sites/default/files/styles/1600x1200/public/grilled-lamb-chops-588290.jpg" width="50%">
             <h1> Garlic & Rosemary Lamb Chops</h1>
             <p><b><i>For The Love of Chops!</b></p></i> 
-            <p>
+            <p id="loveOfChops">
               This relationship with lamb chops started just a few years ago. January 24, 2019 was my first time having lamb chops; at least good ones.
               It was my wife’s birthday and we had her party catered by tonic grille, a black owned business based in Detroit, MI.
               The lamb chops were cooked to a medium temperature with a sweet zip sauce that was OUT OF THIS WORLD! I can still taste it.
@@ -29,26 +28,38 @@
 
             </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="twoChopPics">
           <div class="row">
-            <img src="https://www.primaverakitchen.com/wp-content/uploads/2019/05/Garlic-Buter-Lamb-Chops-Primavera-Kitchen-4-480x270.jpg" class="col-md-6">
-            <img src="https://images.kosher.com/details.slide/g/r/Grunstein__Erin._Garlic_Herb_Lamb_Chops_crop.jpg" width="70" class="col-md-6">
-            <h2> Origin of Dish</h2>
-            <p> Lamb chops are a rustic dish with an earthy flavor, frequently served alongside cooked carrots, potatoes, and other root vegetables. 
-                Often they're accompanied by mushroom gravy or a balsamic reduction. 
-                Believe it or not, humans have been eating lamb chops since the beginning of civilization.
-                Once man came to his senses, baby sheeps became a delicacy and have been there for over 10,000 years.
+           <img src="https://www.primaverakitchen.com/wp-content/uploads/2019/05/Garlic-Buter-Lamb-Chops-Primavera-Kitchen-4-480x270.jpg" class="col-md-6">
+           <img src="https://images.kosher.com/details.slide/g/r/Grunstein__Erin._Garlic_Herb_Lamb_Chops_crop.jpg" class="col-md-6">
+           <br=>
+           <br>
+                      <br>
+           <h2> Origin of Dish</h2>
+           <p>Lamb chops are a rustic dish with an earthy flavor, frequently served alongside cooked carrots, potatoes, and other root vegetables. 
+              Often they're accompanied by mushroom gravy or a balsamic reduction. 
+              Believe it or not, humans have been eating lamb chops since the beginning of civilization.
+              Once man came to his senses, baby sheeps became a delicacy and have been there for over 10,000 years.
             </p>
           </div>
           <div class="row">
-            <button width="50%">
-              <a> Make Datalist </a>
+
+            <label for="temp"><b>Choose your temperature from the list:</b></label>
+            <input list="temp" name="menu" id="menu">
+            
+                <datalist id="temp">
+                <option value="Rare">
+                <option value="Medium-Rare">
+                <option value="Medium">
+                <option value="Medium Well">
+                <option value="Well Done">
+                </datalist>
+
+           <button>
+              <a id="addToCart" "href="">Add to Cart</a>
             </button>
-            <button>
-              <a href="">Add to Cart</a>
-            </button>
-            </div>
-          </div>                                       
+
+          </div>                                
         </div>
       </div>  
     <div class="section" width="100%" id="bottomSection">
@@ -95,7 +106,7 @@
                 These pairings are less common than red blends, however, with red wine blends from the Rhône valley in France being the wines most frequently paired with lamb chops.
             </p>
             <button>
-              <a href="">Add to Cart</a>
+              <a id="addToCart2" href="">Add to Cart</a>
             </button>
             
               

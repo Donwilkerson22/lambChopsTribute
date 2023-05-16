@@ -1,6 +1,12 @@
 body{
     padding: 2px;
    }
+
+   #topBanner{
+    color:rgb(75, 7, 75)
+
+   }
+
    #topSection{
     margin:30px;
    }
